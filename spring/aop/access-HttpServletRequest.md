@@ -34,3 +34,6 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.cu
 ```
 - 위 방법을 사용하면, AOP에서도 HttpServletRequest 객체에 접근이 가능하다.
 - Controller 개발 시 인자로 HttpServletRequest를 받을 필요가 없다.
+
+######reference
+- https://blog.whitelife.co.kr/214
