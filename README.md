@@ -7,14 +7,14 @@
 ----
 
 ### @Annotation
-- [Custom Annotation을 만들어 사용하기](/spring/annotation/custom-annotation.md)
+- [Custom Annotation을 만들어 사용하기](/content/spring/annotation/custom-annotation.md)
 ### AOP
-- [AOP란?](/spring/aop/aop.md)
-- [HttpServletRequest에 접근하기](/spring/aop/access-HttpServletRequest.md)
+- [AOP란?](/content/spring/aop/aop.md)
+- [HttpServletRequest에 접근하기](/content/spring/aop/access-HttpServletRequest.md)
 
 ### Exception
-- [예외처리 하기](/exception/exception-handling.md)
-- [Custom Exception을 만들어 사용하기](/exception/custom-exception.md)
+- [예외처리 하기](/content/exception/exception-handling.md)
+- [Custom Exception을 만들어 사용하기](/content/exception/custom-exception.md)
 
 ## Database
 
@@ -26,11 +26,11 @@
 
 ----
 ### WAF
-- [WAF란?](/aws/waf/waf.md)
+- [WAF란?](/content/aws/waf/waf.md)
 
 ## Clean Code
 
 ----
 ### 디자인 패턴
-- [프록시 패턴이란?](/design-pattern/proxy/proxy-pattern.md)
+- [프록시 패턴이란?](/content/design-pattern/proxy-pattern.md)
 
