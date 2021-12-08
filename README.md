@@ -24,7 +24,7 @@
 - [Logstash vs Filebeat 차이점](/content/elasticsearch/ELK/logstash-filebeat.md)
 ----
 ## Redis
-- [Redis란?](/content/redis/redis.md)
+- [Redis란?](/content/cache/redis.md)
 ----
 ## AWS
 - [AWS]()
