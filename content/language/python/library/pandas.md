@@ -23,6 +23,8 @@ print(df.dtypes)
 ### .apply(str)
 특정 행이나 열의 타입을 변경할 때
 ```python
+import pandas as pd
+
 df = pd.DataFrame({
     'A': [1, 2, 3],
     'B': [4.1, 5.2, 6.3],
