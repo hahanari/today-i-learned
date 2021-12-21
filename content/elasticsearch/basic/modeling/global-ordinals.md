@@ -15,7 +15,7 @@ doc values 최상위에 존재하는 데이터 구조.
 ```
 PUT index
 {
-  "mappings": {
+  "mappings": {   
     "properties": {
       "foo": {
         "type": "keyword",
