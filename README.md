@@ -18,13 +18,24 @@
 ----
 ## Elasticsearch
 - [What's new](/content/elasticsearch/whats-new.md)
+### basic
+#### modeling
+- [Global ordinals란?](/content/elasticsearch/basic/modeling/global-ordinals.md)
+- [Conditional token filter](/content/elasticsearch/basic/modeling/conditional-token-filter.md)
+#### search
 - [doc, _source, stored_fields, script_fields 비교](/content/elasticsearch/basic/doc-_source-stored_fields-script_fields.md)
-- [Global ordinals란?](/content/elasticsearch/basic/global-ordinals.md)
+- [painless script](/content/elasticsearch/basic/search/painless-script.md)
+#### system
+- [Elasticsearch 기본 개념](/content/elasticsearch/basic/system/es-basic.md)
+- [Elasticsearch Local 세팅하기](/content/elasticsearch/basic/system/local-settings.md)
 ### ELK
 - [Logstash vs Filebeat 차이점](/content/elasticsearch/ELK/logstash-filebeat.md)
+### monitoring
+- [filebeat와 logstash를 이용하여 slack Notification 보내기]()
 ----
-## Redis
+## Cache
 - [Redis란?](/content/cache/redis.md)
+- [Caffeine cache](/content/cache/caffeine.md)
 ----
 ## AWS
 - [AWS]()
@@ -49,6 +60,9 @@
 - [프록시 패턴이란?](/content/design-pattern/proxy-pattern.md)
 - [템플릿 메서드 패턴이란?](/content/design-pattern/template-method-pattern.md)
   - [code](/practice-code/src/designpattern/templatemethod/Main.java)
+----
+## 정보 검색론
+- [검색 품질 지표](/content/information-retreival/search-quality-indicators.md)
 ----
 ## Book
 ### 토비의 스프링
