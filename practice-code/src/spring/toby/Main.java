@@ -2,14 +2,14 @@ package spring.toby;
 
 import java.sql.SQLException;
 
-import spring.toby.User;
-import spring.toby.UserDao;
+import spring.toby.user.dao.UserDao;
+import spring.toby.user.domain.User;
 
 public class Main {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
-        UserDao userDao = new UserDao();
+        /*UserDao userDao = new UserDao();
         User user = new User();
         user.setId("iris");
         user.setName("아이리스");
@@ -23,6 +23,6 @@ public class Main {
         System.out.println(user2.getName());
         System.out.println(user2.getPassword());
 
-        System.out.println(user2.getId() + " 조회 성공");
+        System.out.println(user2.getId() + " 조회 성공");*/
     }
 }

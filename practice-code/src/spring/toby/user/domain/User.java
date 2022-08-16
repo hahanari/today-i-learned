@@ -1,4 +1,4 @@
-package spring.toby;
+package spring.toby.user.domain;
 
 public class User {
     String id;
