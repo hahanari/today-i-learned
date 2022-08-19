@@ -58,7 +58,7 @@
 ## Clean Code
 ### 디자인 패턴
 - [프록시 패턴이란?](/content/design-pattern/proxy-pattern.md)
-- [템플릿 메서드 패턴이란?](/content/design-pattern/template-method-pattern.md)
+- [템플릿 메소드 패턴이란?](/content/design-pattern/template-method-pattern.md)
   - [code](/practice-code/src/designpattern/templatemethod/Main.java)
 ----
 ## 정보 검색론

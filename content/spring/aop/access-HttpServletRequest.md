@@ -26,7 +26,7 @@ public class CustomAspect {
 }
 ```
 - ProceedingJoinPoint 클래스는 Target Class, Target Method 정보를 담고 있다.
-- proceed 메서드 호출 시 Target Method를 실행한다.
+- proceed 메소드 호출 시 Target Method를 실행한다.
 - 보통 joinPoint.getArgs() 함수를 사용하여 Target Method의 인자 값을 확인 후 사용하지만, 매번 Controller Method에 인자로 HttpServletRequest를 넣어줘야 하는 불편함이 있다.
 
 ```java

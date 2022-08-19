@@ -2,13 +2,13 @@ package spring.toby.user;
 
 import java.sql.SQLException;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import spring.toby.user.dao.AccountDao;
 import spring.toby.user.dao.DaoFactory;
 import spring.toby.user.dao.UserDao;
+import spring.toby.user.domain.Account;
 import spring.toby.user.domain.User;
 
-public class UserDaoTest {
+public class AccountDaoTest {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
 
@@ -19,18 +19,14 @@ public class UserDaoTest {
         // UserDao dao = new UserDao(connectionMaker);
 
         // UserDao가 어떻게 생성되는지 신경쓰지 않고 팩토리로부터 오브젝트를 받아 활용
-        // UserDao dao = new DaoFactory().userDao();
+        AccountDao dao = new DaoFactory().accountDao();
 
-        // @Bean이 붙은 메소드의 이름을 통해 오브젝트를 가져온다.
-        ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
-        UserDao dao = context.getBean("userDao", UserDao.class);
+        Account account = new Account();
+        account.setId("iris");
+        account.setName("아이리스");
+        account.setPassword("dkdlfltm");
 
-        User user = new User();
-        user.setId("iris");
-        user.setName("아이리스");
-        user.setPassword("dkdlfltm");
-
-        dao.add(user);
+        dao.add(account);
     }
 }
 

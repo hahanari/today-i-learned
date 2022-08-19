@@ -62,8 +62,8 @@ public class UserDao {
         return user;
     }
 
-    // 추상 메서드 (구현은 서브클래스가 담당)
-    // 팩토리 메서드
+    // 추상 메소드 (구현은 서브클래스가 담당)
+    // 팩토리 메소드
     // public abstract Connection getConnection() throws ClassNotFoundException, SQLException;
 
     /*public class NUserDao extends UserDao {

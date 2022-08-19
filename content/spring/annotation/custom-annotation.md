@@ -18,7 +18,7 @@
 | TYPE| 타입(클래스, 인터페이스, ENUM) 선언 시|
 | CONSTRUCTOR| 생성자 선언 시|
 | FIELD| enum 상수를 포함한 멤버변수 선언 시|
-| METHOD| 메서드 선언 시|
+| METHOD| 메소드 선언 시|
 | ANNOTATION_TYPE| 어노테이션 타입 선언 시|
 | LOCAL_VARIABLE| 지역변수 선언 시|
 | PARAMETER| 파라미터 선언 시|

@@ -1,6 +1,6 @@
 # 예외처리
 ## @ExceptionHandler
-@Controller, @RestController 가 적용된 Bean내에서 발생하는 예외를 잡아서 하나의 메서드에서 처리해주는 기능.
+@Controller, @RestController 가 적용된 Bean내에서 발생하는 예외를 잡아서 하나의 메소드에서 처리해주는 기능.
 ```java
 @RestController
 public class MyRestController {

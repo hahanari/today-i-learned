@@ -12,7 +12,7 @@ public class Application {
     
 }
 ```
-@Cacheable 메서드에 사용
+@Cacheable 메소드에 사용
 ```java
 @Cacheable(cacheNames = CacheNameConst.BOOK,
             key = "#root.method.name + '_' + #getBookList")
