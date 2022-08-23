@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import spring.toby.user.dao.connection.ConnectionMaker;
 import spring.toby.user.domain.User;
 
 public class UserDao {
@@ -60,6 +61,10 @@ public class UserDao {
         ps.close();
         c.close();
         return user;
+    }
+
+    public void setConnectionMaker(ConnectionMaker connectionMaker) {
+        this.connectionMaker = connectionMaker;
     }
 
     // 추상 메소드 (구현은 서브클래스가 담당)

@@ -1,4 +1,4 @@
-package spring.toby.user;
+package spring.toby.user.dao.test;
 
 import java.sql.SQLException;
 

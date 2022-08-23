@@ -1,4 +1,4 @@
-package spring.toby.user.dao;
+package spring.toby.user.dao.connection;
 
 import java.sql.Connection;
 import java.sql.SQLException;

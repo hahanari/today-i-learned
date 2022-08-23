@@ -2,11 +2,10 @@ package spring.toby.user.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import spring.toby.user.dao.connection.ConnectionMaker;
 import spring.toby.user.domain.Account;
-import spring.toby.user.domain.User;
 
 public class AccountDao {
     private ConnectionMaker connectionMaker;

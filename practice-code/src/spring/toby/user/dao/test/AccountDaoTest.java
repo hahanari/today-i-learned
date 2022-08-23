@@ -1,12 +1,10 @@
-package spring.toby.user;
+package spring.toby.user.dao.test;
 
 import java.sql.SQLException;
 
 import spring.toby.user.dao.AccountDao;
 import spring.toby.user.dao.DaoFactory;
-import spring.toby.user.dao.UserDao;
 import spring.toby.user.domain.Account;
-import spring.toby.user.domain.User;
 
 public class AccountDaoTest {
 
