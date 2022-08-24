@@ -1,27 +1,21 @@
 package spring.toby.user.dao.test;
 
+import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.junit.Test;
 import spring.toby.user.dao.DaoFactory;
 import spring.toby.user.dao.UserDao;
 import spring.toby.user.domain.User;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 public class UserDaoTest {
-
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-
-        // UserDao가 사용할 ConnectionMaker 구현 클래스를 결정하고 오브젝트를 생성한다.
-        // ConnectionMaker connectionMaker = new DConnectionMaker();
-
-        // UserDao생성, 사용할 ConnectionMaker 타입의 오브젝트 제공, 두 오브젝트 사이의 의존관계 설정
-        // UserDao dao = new UserDao(connectionMaker);
-
-        // UserDao가 어떻게 생성되는지 신경쓰지 않고 팩토리로부터 오브젝트를 받아 활용
-        // UserDao dao = new DaoFactory().userDao();
-
-        // @Bean이 붙은 메소드의 이름을 통해 오브젝트를 가져온다.
+    @Test
+    public void addAndGet() throws SQLException, ClassNotFoundException {
         ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
         UserDao dao = context.getBean("userDao", UserDao.class);
 
@@ -31,6 +25,16 @@ public class UserDaoTest {
         user.setPassword("dkdlfltm");
 
         dao.add(user);
+
+        System.out.println(user.getId() + " 등록 성공");
+
+        User user2 = dao.get(user.getId());
+        System.out.println(user2.getName());
+        System.out.println(user2.getPassword());
+
+        System.out.println(user2.getId() + " 조회 성공");
+
+        assertThat(user2.getName(), is(user.getName()));
     }
 }
 
