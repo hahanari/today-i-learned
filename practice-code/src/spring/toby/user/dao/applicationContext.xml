@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans">
+    <bean id="connectionMaker" class="spring.toby.user.dao.connection.DConnectionMaker"/>
+    <bean id="userDao" class="spring.toby.user.dao.UserDao">
+        <property name="connectionMaker" ref="connectionMaker"/>
+    </bean>
+</beans>

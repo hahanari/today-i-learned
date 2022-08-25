@@ -66,22 +66,4 @@ public class UserDao {
     public void setConnectionMaker(ConnectionMaker connectionMaker) {
         this.connectionMaker = connectionMaker;
     }
-
-    // 추상 메소드 (구현은 서브클래스가 담당)
-    // 팩토리 메소드
-    // public abstract Connection getConnection() throws ClassNotFoundException, SQLException;
-
-    /*public class NUserDao extends UserDao {
-        public Connection getConnection() throws ClassNotFoundException, SQLException {
-            Class.forName("com.mysql.jdbc.Driver");
-            return DriverManager.getConnection("jdbc:mysql://localhost/local_db", "iris", "iris");
-        }
-    }
-
-    public class DUserDao extends UserDao {
-        public Connection getConnection() throws ClassNotFoundException, SQLException {
-            Class.forName("com.mysql.jdbc.Driver");
-            return DriverManager.getConnection("jdbc:mysql://localhost/local_db", "iris", "iris");
-        }
-    }*/
 }
