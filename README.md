@@ -20,21 +20,22 @@
 ----
 ## Elasticsearch
 - [What's new](/content/elasticsearch/whats-new.md)
-### basic
-#### modeling
+### 기초 개념
+#### 모델링
 - [Global ordinals란?](/content/elasticsearch/basic/modeling/global-ordinals.md)
 - [Conditional token filter](/content/elasticsearch/basic/modeling/conditional-token-filter.md)
-#### search
+#### 검색
 - [doc, _source, stored_fields, script_fields 비교](/content/elasticsearch/basic/search/doc-_source-stored_fields-script_fields.md)
 - [painless script](/content/elasticsearch/basic/search/painless-script.md)
 - [suggest API](/content/elasticsearch/basic/search/suggest.md)
-#### system
+- [Result window is too large?](/content/elasticsearch/basic/search/result_window_is_too_large.md)
+#### 시스템
 - [Elasticsearch 기본 개념](/content/elasticsearch/basic/system/es-basic.md)
 - [Elasticsearch Local 세팅하기](/content/elasticsearch/basic/system/local-settings.md)
-### ELK
-- [Logstash vs Filebeat 차이점](/content/elasticsearch/ELK/logstash-filebeat.md)
 ### monitoring
-- [filebeat와 logstash를 이용하여 slack Notification 보내기]()
+- [filebeat와 logstash를 이용하여 slack Notification 보내기](/content/elasticsearch/monitoring/filebeat-logstash-slack-notification.md)
+## ELK
+- [Logstash vs Filebeat 차이점](/content/ELK/logstash-filebeat.md)
 ----
 ## Cache
 - [Redis란?](/content/cache/redis.md)
@@ -43,6 +44,7 @@
 ## Deploy
 ### Jenkins
 - [Jenkins REST API를 이용하여 Job 다루기](/content/deploy/jenkins/jenkins_rest_api.md)
+- [java 라이브러리를 이용하여 Jenkins REST API 쉽게 호출하기](/content/deploy/jenkins/jenkins_rest_api.md)
 ----
 ## AWS
 ### Amazon Elasticsearch
