@@ -14,6 +14,10 @@
 - [AOP란?](/content/spring/aop/aop.md)
 - [HttpServletRequest에 접근하기](/content/spring/aop/access-HttpServletRequest.md)
 ----
+## Spring batch
+- [Spring batch 개념 알고 쓰기!](/content/spring-batch/basic.md)
+- [Spring batch에서는 메타 테이블이 필요하다?](/content/spring-batch/meta_table.md)
+----
 ## Exception
 - [예외처리 하기](/content/exception/exception-handling.md)
 - [Custom Exception을 만들어 사용하기](/content/exception/custom-exception.md)
@@ -40,6 +44,10 @@
 ## Cache
 - [Redis란?](/content/cache/redis.md)
 - [Caffeine cache](/content/cache/caffeine.md)
+- [Cache 전략 2가지](/content/cache/cache_strategy.md)
+----
+# JPA
+- [JPA, Hibernate, Spring Data JPA의 차이점](/content/jpa/jpa_hibernate_spring_data_jpa_diff.md)
 ----
 ## Deploy
 ### Jenkins
