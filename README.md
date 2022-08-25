@@ -6,8 +6,10 @@
 - [Spring이란?](/content/spring/spring.md)
 ### @Annotation
 - [기본적인 Spring annotation](/content/spring/annotation/basic-annotation.md)
-- [Lombok](/content/spring/annotation/lombok.md)
+- [@Cacheable](/content/spring/annotation/cacheable.md)
 - [Custom Annotation을 만들어 사용하기](/content/spring/annotation/custom-annotation.md)
+- [Enum의 Validation을 체크하는 Annotation](/content/spring/annotation/enum-validation-annotation.md)
+- [Lombok](/content/spring/annotation/lombok.md)
 ### AOP
 - [AOP란?](/content/spring/aop/aop.md)
 - [HttpServletRequest에 접근하기](/content/spring/aop/access-HttpServletRequest.md)
@@ -23,8 +25,9 @@
 - [Global ordinals란?](/content/elasticsearch/basic/modeling/global-ordinals.md)
 - [Conditional token filter](/content/elasticsearch/basic/modeling/conditional-token-filter.md)
 #### search
-- [doc, _source, stored_fields, script_fields 비교](/content/elasticsearch/basic/doc-_source-stored_fields-script_fields.md)
+- [doc, _source, stored_fields, script_fields 비교](/content/elasticsearch/basic/search/doc-_source-stored_fields-script_fields.md)
 - [painless script](/content/elasticsearch/basic/search/painless-script.md)
+- [suggest API](/content/elasticsearch/basic/search/suggest.md)
 #### system
 - [Elasticsearch 기본 개념](/content/elasticsearch/basic/system/es-basic.md)
 - [Elasticsearch Local 세팅하기](/content/elasticsearch/basic/system/local-settings.md)
@@ -37,8 +40,11 @@
 - [Redis란?](/content/cache/redis.md)
 - [Caffeine cache](/content/cache/caffeine.md)
 ----
+## Deploy
+### Jenkins
+- [Jenkins REST API를 이용하여 Job 다루기](/content/deploy/jenkins/jenkins_rest_api.md)
+----
 ## AWS
-- [AWS]()
 ### Amazon Elasticsearch
 - [Amazon Elasticsearch 를 이용한 공용 검색 클러스터 만들기](/content/aws/amazon-elasticsearch/common-cluster.md)
 ### WAF
@@ -66,5 +72,7 @@
 ----
 ## Book
 ### 토비의 스프링
-- [토비의 스프링 1권 - 1](/content/spring/book/toby/toby-1-1.md)
+- [토비의 스프링 1권 - 1](/content/book/toby/1_오브젝트와%20의존관계.md)
   - [code](/practice-code/src/spring/toby/Main.java)
+- [토비의 스프링 1권 - 2](/content/book/toby/2_테스트.md)
+

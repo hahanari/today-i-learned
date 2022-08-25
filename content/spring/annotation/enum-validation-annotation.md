@@ -1,4 +1,4 @@
-# Enum Validation Annotation
+# Enum의 Validation을 체크하는 Annotation
 DTO의 Enum필드에 매핑된 값의 validation check하는 custom annotation을 구현한다.
 
 ### Enum에 정의된 값의 일부만 정의해서 사용
