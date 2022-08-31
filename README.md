@@ -82,8 +82,9 @@
 ----
 ## Book
 ### 토비의 스프링
-- [토비의 스프링 1권 - 1](/content/book/toby/1_오브젝트와%20의존관계.md)
-  - [code](/practice-code/src/spring/toby/Main.java)
-- [토비의 스프링 1권 - 2](/content/book/toby/2_테스트.md)
+- [토비의 스프링 1권 - 1. 오브젝트와 의존관계](/content/book/toby/1_오브젝트와%20의존관계.md)
+- [토비의 스프링 1권 - 2. 테스트](/content/book/toby/2_테스트.md)
+- [토비의 스프링 1권 - 3. 템플릿](/content/book/toby/3_템플릿.md)
+
 
 
